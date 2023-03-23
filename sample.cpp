@@ -6,7 +6,7 @@
 int main()
 {
 
-  std::string input = "image1.pgm";
+  std::string input = "inImage.pgm";
   int img[MAX_H][MAX_W];
   int h, w;
   readImage(input, img, h, w); // read it from the file "inImage.pgm"
