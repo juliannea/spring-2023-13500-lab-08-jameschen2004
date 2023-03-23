@@ -1,4 +1,5 @@
 #pragma once
+#include <string>
 
 const int MAX_H = 512;
 const int MAX_W = 512;

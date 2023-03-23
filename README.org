@@ -1,10 +1,10 @@
 * Spring 2023 - Lab 08
 
-* Last name:
+* Last name: Chen
 
-* First name:
+* First name: James
 
-* GitHub username:
+* GitHub username: jameschen2004
 
 * Notes:
 
@@ -30,7 +30,7 @@ writeImage. They have been modified to accept a std::string as the
 first parameter representing the name of the file to read or write.
 
 There is also an example file: ~sample.cpp~ and a ~Makefile~ that
-builds it to shhow hwo to use ~imageio.cpp~.
+builds it to show how to use ~imageio.cpp~.
 
 For this lab, instead of writing separate programs, write one program
 that you should compile using *make*. You should modify the provided
@@ -46,7 +46,7 @@ Important specifics:
    files.
 2. Your program must consist of *at least* two ~.cpp~ files if not
    more, not counting ~imageio.cpp~. 
-3. You *should not* change anything in ~iamgeio.cpp~.
+3. You *should not* change anything in ~imageio.cpp~.
 4. This lab should *not* use ~doctest.h~, it should just run with no
    user input and generate the output images.
 
