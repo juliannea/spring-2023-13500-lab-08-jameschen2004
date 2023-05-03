@@ -3,7 +3,7 @@
 #include <string>
 #include <cmath>
 
-void invert_image(std::string file){
+void invert_image_colors(std::string file){ //changed to clearer name
     int height, width;
     int image[MAX_H][MAX_W];
     readImage(file, image, height, width);
@@ -15,7 +15,7 @@ void invert_image(std::string file){
     writeImage("taskA.pgm", image, height, width);
 }
 
-void invert_half_image(std::string file){
+void invert_half_image_color(std::string file){ //changed to clearer name
     int height, width;
     int image[MAX_H][MAX_W];
     readImage(file, image, height, width);
@@ -29,7 +29,7 @@ void invert_half_image(std::string file){
     writeImage("taskB.pgm", image, height, width);	
 }
 
-void box_image(std::string file){
+void insert_box_to_image(std::string file){ //change to clearer name
     int height, width;
     int image[MAX_H][MAX_W];
     readImage(file, image, height, width);
@@ -59,7 +59,7 @@ void frame_image(std::string file){
     writeImage("taskD.pgm", image, height, width);		
 }
 
-void scale_image(std::string file){
+void increase_scale_image(std::string file){ //changed to clearer name
     int height, width;
     int image[MAX_H][MAX_W];
     int newimage[MAX_H][MAX_W];
